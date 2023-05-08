@@ -34,7 +34,7 @@ def askThe_option():
         if (ask ==1):
              confirmation = input("Are you want to install zphisher? (y/n): ")
              if confirmation == "y":
-                 os.system("pkg update -y && pkg upgrade -y && pkg install python3")
+                 os.system("apt update -y && apt upgrade -y && apt install python3")
              elif confirmation == "n":
                 print("It's okey.....")
                 os.system("exit")
